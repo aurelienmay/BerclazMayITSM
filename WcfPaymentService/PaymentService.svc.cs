@@ -35,7 +35,7 @@ namespace WcfPaymentService
             IPersonDB userDb = new PersonDB();
             IPersonManager userManager = new PersonManager(userDb);
             float result = userManager.AddCashWithUID(UID, cash);
-            // return the 
+            // Return the total cash in the balance
             return result;
         }
     }
