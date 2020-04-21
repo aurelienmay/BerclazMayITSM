@@ -1,0 +1,10 @@
+C:\Temp\CreateWebservice\Webservice\DTO\bin\Debug\DTO.dll
+C:\Temp\CreateWebservice\Webservice\DTO\bin\Debug\DTO.pdb
+C:\Temp\CreateWebservice\Webservice\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Temp\CreateWebservice\Webservice\DTO\obj\Debug\DTO.dll
+C:\Temp\CreateWebservice\Webservice\DTO\obj\Debug\DTO.pdb
+C:\Users\uadmin\Source\Repos\Webservice\DTO\bin\Debug\DTO.dll
+C:\Users\uadmin\Source\Repos\Webservice\DTO\bin\Debug\DTO.pdb
+C:\Users\uadmin\Source\Repos\Webservice\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\uadmin\Source\Repos\Webservice\DTO\obj\Debug\DTO.dll
+C:\Users\uadmin\Source\Repos\Webservice\DTO\obj\Debug\DTO.pdb

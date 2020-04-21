@@ -1,0 +1,7 @@
+C:\Users\uadmin\Source\Repos\Webservice\ConsoleTestWebService\bin\Debug\ConsoleTestWebService.exe.config
+C:\Users\uadmin\Source\Repos\Webservice\ConsoleTestWebService\bin\Debug\ConsoleTestWebService.exe
+C:\Users\uadmin\Source\Repos\Webservice\ConsoleTestWebService\bin\Debug\ConsoleTestWebService.pdb
+C:\Users\uadmin\Source\Repos\Webservice\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.csproj.CoreCompileInputs.cache
+C:\Users\uadmin\Source\Repos\Webservice\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.exe
+C:\Users\uadmin\Source\Repos\Webservice\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.pdb
+C:\Users\uadmin\Source\Repos\Webservice\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.csprojAssemblyReference.cache
