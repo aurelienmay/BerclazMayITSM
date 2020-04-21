@@ -38,7 +38,7 @@ namespace DAL
                           
                             result.UID = (int)dr["UID"];
                             result.Username = (string)dr["Username"];
-                            result.Balance = (int)dr["Balance"];
+                            result.Balance = (float)dr["Balance"];
 
                             Console.WriteLine("TEST");
                         }

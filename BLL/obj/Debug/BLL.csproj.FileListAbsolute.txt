@@ -31,3 +31,14 @@ C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\obj\Debug\BLL.csproj.
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\obj\Debug\BLL.dll
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\obj\Debug\BLL.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\bin\Debug\BLL.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\bin\Debug\BLL.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\bin\Debug\DAL.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\bin\Debug\DTO.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\bin\Debug\DAL.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\bin\Debug\DTO.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\obj\Debug\BLL.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\BLL\obj\Debug\BLL.pdb

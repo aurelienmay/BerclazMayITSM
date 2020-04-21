@@ -12,3 +12,17 @@ C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\obj\Deb
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.csproj.CopyComplete
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.dll
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\bin\WcfPaymentService.dll.config
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\bin\WcfPaymentService.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\bin\WcfPaymentService.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\bin\BLL.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\bin\DAL.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\bin\DTO.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\bin\BLL.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\bin\DAL.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\bin\DTO.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.csprojAssemblyReference.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.csproj.CoreCompileInputs.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.csproj.CopyComplete
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.pdb
