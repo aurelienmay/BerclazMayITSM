@@ -21,5 +21,10 @@ namespace BLL
         {
             return UserDb.GetUserByUID(uid);
         }
+
+        public User GetBalanceByUID(int uid)
+        {
+            return UserDb.GetBalanceByUID(uid);
+        }
     }
 }

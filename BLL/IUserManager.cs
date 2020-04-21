@@ -10,5 +10,6 @@ namespace BLL
     public interface IUserManager
     {
         User GetUserByUID(int uid);
+        User GetBalanceByUID(int uid);
     }
 }

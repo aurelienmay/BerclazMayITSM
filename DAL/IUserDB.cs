@@ -10,5 +10,6 @@ namespace DAL
     public interface IUserDB
     {
         User GetUserByUID(int uid);
+        User GetBalanceByUID(int uid);
     }
 }

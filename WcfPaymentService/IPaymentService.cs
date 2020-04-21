@@ -15,5 +15,7 @@ namespace WcfPaymentService
         [OperationContract]
         string GetUserByUID(int uid);
 
+        [OperationContract]
+        float GetBalanceByUID(int uid);
     }
 }

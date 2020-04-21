@@ -39,8 +39,40 @@ namespace DAL
                             result.UID = (int)dr["UID"];
                             result.Username = (string)dr["Username"];
                             result.Balance = (float)dr["Balance"];
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
 
-                            Console.WriteLine("TEST");
+            return result;
+        }
+
+        public User GetBalanceByUID(int UID)
+        {
+            User result = null;
+
+            try
+            {
+                using (SqlConnection cn = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT * FROM Person where UID = @UID";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.Parameters.AddWithValue("@UID", UID);
+                    cn.Open();
+
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr.Read())
+                        {
+                            result = new User();
+
+                            result.UID = (int)dr["UID"];
+                            result.Username = (string)dr["Username"];
+                            result.Balance = (float)dr["Balance"];
                         }
                     }
                 }

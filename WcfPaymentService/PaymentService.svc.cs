@@ -21,5 +21,13 @@ namespace WcfPaymentService
             var user = userManager.GetUserByUID(uid);
             return user.Username;
         }
+
+        public float GetBalanceByUID(int uid)
+        {
+            IUserDB userDb = new UserDB();
+            IUserManager userManager = new UserManager(userDb);
+            var user = userManager.GetBalanceByUID(uid);
+            return user.Balance ;
+        }
     }
 }
