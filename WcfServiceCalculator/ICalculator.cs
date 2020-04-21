@@ -24,7 +24,7 @@ namespace WcfServiceCalculator
         double Div(double a, double b);
 
 
-        [OperationContract]
-        string GetPersonById(int id);
+        //[OperationContract]
+        //string GetPersonById(int id);
     }
 }

@@ -33,12 +33,12 @@ namespace WcfServiceCalculator
             return a - b;
         }
 
-        public string GetPersonById(int id)
-        {
-            IPersonDB personDb = new PersonDB();
-            IPersonManager personManager = new PersonManager(personDb);
-            var person = personManager.GetPersonById(id);
-            return person.FirstName;
-        }
+        //public string GetPersonById(int id)
+        //{
+        //    IPersonDB personDb = new PersonDB();
+        //    IPersonManager personManager = new PersonManager(personDb);
+        //    var person = personManager.GetPersonById(id);
+        //    return person.FirstName;
+        //}
     }
 }

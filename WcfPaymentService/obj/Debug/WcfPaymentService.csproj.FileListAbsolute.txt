@@ -1,0 +1,14 @@
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\bin\WcfPaymentService.dll.config
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\bin\WcfPaymentService.dll
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\bin\WcfPaymentService.pdb
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\bin\BLL.dll
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\bin\DAL.dll
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\bin\DTO.dll
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\bin\BLL.pdb
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\bin\DAL.pdb
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\bin\DTO.pdb
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.csprojAssemblyReference.cache
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.csproj.CoreCompileInputs.cache
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.csproj.CopyComplete
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.dll
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfPaymentService\obj\Debug\WcfPaymentService.pdb

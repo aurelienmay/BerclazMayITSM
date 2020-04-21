@@ -10,27 +10,21 @@ namespace ConsoleTestWebService
     {
         static void Main(string[] args)
         {
-            ServiceReferenceCalculator.CalculatorClient client = new ServiceReferenceCalculator.CalculatorClient();
-            var a = 6;
-            var b = 2;
+            //ServiceReferenceCalculator.CalculatorClient client = new ServiceReferenceCalculator.CalculatorClient();
+
+            //var id = 2;
+            //var firstname = client.GetPersonById(id);
+            //Console.WriteLine($"Person with id {id}: {firstname}");
             
-            var result = client.Add(a, b);
-            Console.WriteLine($"{a} + {b} = {result}");
+            //Console.ReadKey();
 
-            result = client.Sub(a, b);
-            Console.WriteLine($"{a} - {b} = {result}");
+            //ServiceReferenceCalculator.CalculatorClient client = new ServiceReferenceCalculator.CalculatorClient();
 
-            result = client.Mult(a, b);
-            Console.WriteLine($"{a} * {b} = {result}");
+            //var id = 2;
+            //var firstname = client.GetPersonById(id);
+            //Console.WriteLine($"Person with id {id}: {firstname}");
 
-            result = client.Div(a, b);
-            Console.WriteLine($"{a} / {b} = {result}");
-
-            var id = 2;
-            var firstname = client.GetPersonById(id);
-            Console.WriteLine($"Person with id {id}: {firstname}");
-            
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }

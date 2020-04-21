@@ -20,3 +20,14 @@ C:\Users\uadmin\Source\Repos\Webservice\BLL\obj\Debug\BLL.csproj.CoreCompileInpu
 C:\Users\uadmin\Source\Repos\Webservice\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\uadmin\Source\Repos\Webservice\BLL\obj\Debug\BLL.dll
 C:\Users\uadmin\Source\Repos\Webservice\BLL\obj\Debug\BLL.pdb
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\bin\Debug\BLL.dll
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\bin\Debug\BLL.pdb
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\bin\Debug\DAL.dll
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\bin\Debug\DTO.dll
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\bin\Debug\DAL.pdb
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\bin\Debug\DTO.pdb
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\obj\Debug\BLL.dll
+C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\BLL\obj\Debug\BLL.pdb

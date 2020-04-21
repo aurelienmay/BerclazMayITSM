@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IPersonDB.cs" />
-    <Compile Include="PersonDB.cs" />
+    <Compile Include="IUserDB.cs" />
+    <Compile Include="UserDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
