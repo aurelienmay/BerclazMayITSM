@@ -11,5 +11,6 @@ namespace DAL
     {
         Person GetUsernameByUID(int uid);
         Person GetBalanceByUID(int uid);
+        float AddCashWithUID(int UID, float cash);
     }
 }

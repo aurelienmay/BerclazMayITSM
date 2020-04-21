@@ -84,5 +84,33 @@ namespace DAL
 
             return result;
         }
+
+        //ADD CASH TO BALANCE ACCORDING TO THE UID
+        public float AddCashWithUID(int UID, float cash)
+        {
+            float result = 0;
+
+            try
+            {
+                using (SqlConnection cn = new SqlConnection(connectionString))
+                {
+                    string query = "UPDATE Person SET Balance=@Balance WHERE UID = @UID";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.Parameters.AddWithValue("@UID", UID);
+                    result = GetBalanceByUID(UID).Balance + cash;
+                    cmd.Parameters.AddWithValue("@Balance", result);
+
+                    cn.Open();
+
+                    //result = cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+
+            return result;
+        }
     }
 }

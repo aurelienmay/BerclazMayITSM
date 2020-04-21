@@ -26,5 +26,10 @@ namespace BLL
         {
             return UserDb.GetBalanceByUID(uid);
         }
+
+        public float AddCashWithUID(int UID, float cash)
+        {
+            return UserDb.AddCashWithUID(UID, cash);
+        }
     }
 }
