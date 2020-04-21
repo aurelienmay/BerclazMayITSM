@@ -8,7 +8,8 @@ namespace DTO
 {
     public class Person
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
+        public int UID { get; set; }
+        public string Username { get; set; }
+        public float Balance { get; set; }
     }
 }

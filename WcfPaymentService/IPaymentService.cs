@@ -13,7 +13,7 @@ namespace WcfPaymentService
     public interface IPaymentService
     {
         [OperationContract]
-        string GetUserByUID(int uid);
+        string GetUsernameByUID(int uid);
 
         [OperationContract]
         float GetBalanceByUID(int uid);

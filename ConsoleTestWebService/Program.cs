@@ -15,7 +15,7 @@ namespace ConsoleTestWebService
             //var id = 2;
             //var firstname = client.GetPersonById(id);
             //Console.WriteLine($"Person with id {id}: {firstname}");
-            
+
             //Console.ReadKey();
 
             //ServiceReferenceCalculator.CalculatorClient client = new ServiceReferenceCalculator.CalculatorClient();
@@ -25,6 +25,12 @@ namespace ConsoleTestWebService
             //Console.WriteLine($"Person with id {id}: {firstname}");
 
             //Console.ReadKey();
+
+            //ServiceReferencePS.PaymentServiceClient client = new ServiceReferencePS.PaymentServiceClient();
+            //var id = 2;
+            //var username = client.GetUsernameByUID(id);
+            //Console.WriteLine($"Person with id {id}: {username}");
+
         }
     }
 }

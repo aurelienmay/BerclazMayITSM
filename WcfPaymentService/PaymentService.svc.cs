@@ -14,18 +14,18 @@ namespace WcfPaymentService
     // REMARQUE : pour lancer le client test WCF afin de tester ce service, sélectionnez Service1.svc ou Service1.svc.cs dans l'Explorateur de solutions et démarrez le débogage.
     public class PaymentService : IPaymentService
     {
-        public string GetUserByUID(int uid)
+        public string GetUsernameByUID(int uid)
         {
-            IUserDB userDb = new UserDB();
-            IUserManager userManager = new UserManager(userDb);
-            var user = userManager.GetUserByUID(uid);
+            IPersonDB userDb = new PersonDB();
+            IPersonManager userManager = new PersonManager(userDb);
+            var user = userManager.GetUsernameByUID(uid);
             return user.Username;
         }
 
         public float GetBalanceByUID(int uid)
         {
-            IUserDB userDb = new UserDB();
-            IUserManager userManager = new UserManager(userDb);
+            IPersonDB userDb = new PersonDB();
+            IPersonManager userManager = new PersonManager(userDb);
             var user = userManager.GetBalanceByUID(uid);
             return user.Balance ;
         }

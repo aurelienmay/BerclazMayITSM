@@ -12,3 +12,10 @@ C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\ConsoleTestWebService\obj
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.csproj.CoreCompileInputs.cache
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.exe
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\ConsoleTestWebService\bin\Debug\ConsoleTestWebService.exe.config
+C:\Users\aurel\source\repos\BerclazMayITSM\ConsoleTestWebService\bin\Debug\ConsoleTestWebService.exe
+C:\Users\aurel\source\repos\BerclazMayITSM\ConsoleTestWebService\bin\Debug\ConsoleTestWebService.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.csprojAssemblyReference.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.csproj.CoreCompileInputs.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.exe
+C:\Users\aurel\source\repos\BerclazMayITSM\ConsoleTestWebService\obj\Debug\ConsoleTestWebService.pdb

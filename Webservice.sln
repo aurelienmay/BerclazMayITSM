@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestWebService", "ConsoleTestWebService\ConsoleTestWebService.csproj", "{DEA65A60-4443-40D2-B98A-06A70FEB3B78}"
 	ProjectSection(ProjectDependencies) = postProject
 		{FFA54543-7218-410F-BF2B-25285533E65F} = {FFA54543-7218-410F-BF2B-25285533E65F}
+		{07587CFC-BF07-4EC0-850E-E054E1FD335C} = {07587CFC-BF07-4EC0-850E-E054E1FD335C}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceCalculator", "WcfServiceCalculator\WcfServiceCalculator.csproj", "{FFA54543-7218-410F-BF2B-25285533E65F}"

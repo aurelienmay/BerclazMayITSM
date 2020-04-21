@@ -40,3 +40,17 @@ C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfServiceCalculator\obj\
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.csproj.CopyComplete
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.dll
 C:\Users\brice\source\repos\aurelienmay\BerclazMayITSM\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\bin\WcfServiceCalculator.dll.config
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\bin\WcfServiceCalculator.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\bin\WcfServiceCalculator.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\bin\BLL.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\bin\DAL.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\bin\DTO.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\bin\BLL.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\bin\DAL.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\bin\DTO.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.csprojAssemblyReference.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.csproj.CoreCompileInputs.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.csproj.CopyComplete
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.dll
+C:\Users\aurel\source\repos\BerclazMayITSM\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.pdb
