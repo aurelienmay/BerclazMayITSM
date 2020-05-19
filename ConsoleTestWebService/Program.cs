@@ -10,18 +10,17 @@ namespace ConsoleTestWebService
     {
         static void Main(string[] args)
         {
-            PaymentService.PaymentServiceClient service = new PaymentService.PaymentServiceClient();
+            ServiceReferencePayment.PaymentServiceClient service = new ServiceReferencePayment.PaymentServiceClient();
 
             var id = 2;
             var username = service.GetUsernameByUID(id);
             Console.WriteLine($"Person with id {id}: {username}");
 
-
             var balance = service.GetBalanceByUID(id);
             Console.WriteLine("Current balance for UID " + id + " : " + balance);
 
             var add = service.AddCashWithUID(id, 1000);
-            Console.WriteLine("Current balance for UID " + id + " : " + add);
+            Console.WriteLine("Current balance for UID after add " + id + " : " + add);
 
             Console.ReadKey();
 

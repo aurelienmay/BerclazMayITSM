@@ -45,12 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\PaymentService\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
-    <Compile Include="Connected Services\ServiceReferenceCalculator\Reference.cs">
+    <Compile Include="Connected Services\ServiceReferencePayment\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -60,18 +55,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\PaymentService\PaymentService.wsdl" />
-    <None Include="Connected Services\PaymentService\PaymentService.xsd">
+    <None Include="Connected Services\ServiceReferencePayment\PaymentService.wsdl" />
+    <None Include="Connected Services\ServiceReferencePayment\PaymentService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\PaymentService\PaymentService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\ServiceReferenceCalculator\Calculator.wsdl" />
-    <None Include="Connected Services\ServiceReferenceCalculator\Calculator.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\ServiceReferenceCalculator\Calculator1.xsd">
+    <None Include="Connected Services\ServiceReferencePayment\PaymentService1.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -79,35 +67,19 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\PaymentService\" />
-    <WCFMetadataStorage Include="Connected Services\ServiceReferenceCalculator\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReferencePayment\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReferenceCalculator\Calculator.disco" />
+    <None Include="Connected Services\ServiceReferencePayment\PaymentService.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReferenceCalculator\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceReferencePayment\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReferenceCalculator\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceReferencePayment\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReferenceCalculator\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\PaymentService\PaymentService.disco" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\PaymentService\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\PaymentService\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\PaymentService\Reference.svcmap">
+    <None Include="Connected Services\ServiceReferencePayment\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

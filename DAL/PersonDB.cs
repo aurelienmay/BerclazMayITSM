@@ -102,7 +102,7 @@ namespace DAL
 
                     cn.Open();
 
-                    //result = cmd.ExecuteNonQuery();
+                    cmd.ExecuteNonQuery();
                 }
             }
             catch (Exception e)
