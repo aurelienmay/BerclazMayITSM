@@ -55,5 +55,23 @@ namespace WcfPaymentService
             // Return the total cash in the balance
             return result;
         }
+
+        public int ShowQuotasByUID(int UID)
+        {
+            IPersonDB userDb = new PersonDB();
+            IPersonManager userManager = new PersonManager(userDb);
+            int result = userManager.ShowQuotasByUID(UID);
+            // Return the total cash in the balance
+            return result;
+        }
+
+        public int ShowQuotasByUsername(string username)
+        {
+            IPersonDB userDb = new PersonDB();
+            IPersonManager userManager = new PersonManager(userDb);
+            int result = userManager.ShowQuotasByUsername(username);
+            // Return the total cash in the balance
+            return result;
+        }
     }
 }

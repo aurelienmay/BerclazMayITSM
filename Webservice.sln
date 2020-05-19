@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfPaymentService", "WcfPaymentService\WcfPaymentService.csproj", "{07587CFC-BF07-4EC0-850E-E054E1FD335C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp2", "WindowsFormsApp2\WindowsFormsApp2.csproj", "{FD9255E3-8357-47EE-A1CD-C8271B72BA44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTestWebservice", "WindowsFormsTestWebservice\WindowsFormsTestWebservice.csproj", "{80F168B4-99FB-4D40-8D6F-7C347E6B9953}"
 	ProjectSection(ProjectDependencies) = postProject
 		{07587CFC-BF07-4EC0-850E-E054E1FD335C} = {07587CFC-BF07-4EC0-850E-E054E1FD335C}
 	EndProjectSection
@@ -47,10 +47,10 @@ Global
 		{07587CFC-BF07-4EC0-850E-E054E1FD335C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07587CFC-BF07-4EC0-850E-E054E1FD335C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07587CFC-BF07-4EC0-850E-E054E1FD335C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD9255E3-8357-47EE-A1CD-C8271B72BA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD9255E3-8357-47EE-A1CD-C8271B72BA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD9255E3-8357-47EE-A1CD-C8271B72BA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD9255E3-8357-47EE-A1CD-C8271B72BA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F168B4-99FB-4D40-8D6F-7C347E6B9953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F168B4-99FB-4D40-8D6F-7C347E6B9953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F168B4-99FB-4D40-8D6F-7C347E6B9953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F168B4-99FB-4D40-8D6F-7C347E6B9953}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

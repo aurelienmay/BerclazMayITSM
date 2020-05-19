@@ -13,7 +13,11 @@ namespace BLL
         Person GetBalanceByUID(int uid);
         Person GetBalanceByUsername(string Username);
         float AddCashWithUID(int UID, float cash);
-
         float AddCashWithUsername(string Username, float cash);
+
+        int ShowQuotasByUID(int UID);
+
+        int ShowQuotasByUsername(string username);
+
     }
 }

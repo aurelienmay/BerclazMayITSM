@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{46D57EBE-49B7-4FCE-92BF-A69F8C446034}</ProjectGuid>
+    <ProjectGuid>{80F168B4-99FB-4D40-8D6F-7C347E6B9953}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsTestWebService</RootNamespace>
-    <AssemblyName>WindowsFormsTestWebService</AssemblyName>
+    <RootNamespace>WindowsFormsTestWebservice</RootNamespace>
+    <AssemblyName>WindowsFormsTestWebservice</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ServiceReferenceCalculator\Reference.cs">
+    <Compile Include="Connected Services\ServiceReferencePayment\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -73,11 +73,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Connected Services\ServiceReferenceCalculator\Calculator.wsdl" />
-    <None Include="Connected Services\ServiceReferenceCalculator\Calculator.xsd">
+    <None Include="Connected Services\ServiceReferencePayment\PaymentService.wsdl" />
+    <None Include="Connected Services\ServiceReferencePayment\PaymentService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ServiceReferenceCalculator\Calculator1.xsd">
+    <None Include="Connected Services\ServiceReferencePayment\PaymentService1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
@@ -97,16 +97,19 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ServiceReferenceCalculator\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReferencePayment\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReferenceCalculator\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceReferencePayment\PaymentService.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReferenceCalculator\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceReferencePayment\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReferenceCalculator\Reference.svcmap">
+    <None Include="Connected Services\ServiceReferencePayment\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferencePayment\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

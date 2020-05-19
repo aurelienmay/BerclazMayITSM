@@ -26,5 +26,11 @@ namespace WcfPaymentService
 
         [OperationContract]
         float AddCashWithUsername(string Username, float cash);
+
+        [OperationContract]
+        int ShowQuotasByUID(int UID);
+
+        [OperationContract]
+        int ShowQuotasByUsername(string username);
     }
 }

@@ -41,5 +41,19 @@ namespace BLL
         {
             return UserDb.AddCashWithUsername(Username, cash);
         }
+
+        public int ShowQuotasByUID(int UID)
+        {
+            float balance = GetBalanceByUID(UID).Balance;
+
+            return Convert.ToInt32(Math.Floor(balance / 0.08));
+        }
+
+        public int ShowQuotasByUsername(string username)
+        {
+            float balance = GetBalanceByUsername(username).Balance;
+
+            return Convert.ToInt32(Math.Floor(balance / 0.08));
+        }
     }
 }

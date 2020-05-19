@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsTestWebService.Properties
+namespace WindowsFormsTestWebservice.Properties
 {
 
 

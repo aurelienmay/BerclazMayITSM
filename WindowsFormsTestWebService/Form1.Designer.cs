@@ -1,16 +1,16 @@
-﻿namespace WindowsFormsTestWebService
+﻿namespace WindowsFormsTestWebservice
 {
     partial class Form1
     {
         /// <summary>
-        /// Required designer variable.
+        /// Variable nécessaire au concepteur.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// Nettoyage des ressources utilisées.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,118 +20,147 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Code généré par le Concepteur Windows Form
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+        /// le contenu de cette méthode avec l'éditeur de code.
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelA = new System.Windows.Forms.Label();
-            this.textBoxA = new System.Windows.Forms.TextBox();
-            this.labelB = new System.Windows.Forms.Label();
-            this.textBoxB = new System.Windows.Forms.TextBox();
-            this.buttonAdd = new System.Windows.Forms.Button();
-            this.buttonSub = new System.Windows.Forms.Button();
-            this.buttonMult = new System.Windows.Forms.Button();
-            this.buttonDiv = new System.Windows.Forms.Button();
+            this.radioButtonUID = new System.Windows.Forms.RadioButton();
+            this.radioButtonUsername = new System.Windows.Forms.RadioButton();
+            this.textBoxUIDUsername = new System.Windows.Forms.TextBox();
+            this.buttonShowBalance = new System.Windows.Forms.Button();
+            this.textBoxAmount = new System.Windows.Forms.TextBox();
+            this.labelAmount = new System.Windows.Forms.Label();
+            this.labelResult = new System.Windows.Forms.Label();
             this.textBoxResult = new System.Windows.Forms.TextBox();
+            this.buttonAmount = new System.Windows.Forms.Button();
+            this.labelQuotas = new System.Windows.Forms.Label();
+            this.textBoxQuotas = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // labelA
+            // radioButtonUID
             // 
-            this.labelA.AutoSize = true;
-            this.labelA.Location = new System.Drawing.Point(127, 48);
-            this.labelA.Name = "labelA";
-            this.labelA.Size = new System.Drawing.Size(14, 13);
-            this.labelA.TabIndex = 0;
-            this.labelA.Text = "A";
+            this.radioButtonUID.AutoSize = true;
+            this.radioButtonUID.Location = new System.Drawing.Point(74, 54);
+            this.radioButtonUID.Name = "radioButtonUID";
+            this.radioButtonUID.Size = new System.Drawing.Size(49, 20);
+            this.radioButtonUID.TabIndex = 0;
+            this.radioButtonUID.TabStop = true;
+            this.radioButtonUID.Text = "UID";
+            this.radioButtonUID.UseVisualStyleBackColor = true;
+            this.radioButtonUID.CheckedChanged += new System.EventHandler(this.radioButtonUID_CheckedChanged);
             // 
-            // textBoxA
+            // radioButtonUsername
             // 
-            this.textBoxA.Location = new System.Drawing.Point(148, 48);
-            this.textBoxA.Name = "textBoxA";
-            this.textBoxA.Size = new System.Drawing.Size(100, 20);
-            this.textBoxA.TabIndex = 1;
+            this.radioButtonUsername.AutoSize = true;
+            this.radioButtonUsername.Location = new System.Drawing.Point(74, 92);
+            this.radioButtonUsername.Name = "radioButtonUsername";
+            this.radioButtonUsername.Size = new System.Drawing.Size(89, 20);
+            this.radioButtonUsername.TabIndex = 1;
+            this.radioButtonUsername.TabStop = true;
+            this.radioButtonUsername.Text = "Username";
+            this.radioButtonUsername.UseVisualStyleBackColor = true;
+            this.radioButtonUsername.CheckedChanged += new System.EventHandler(this.radioButtonUsername_CheckedChanged);
             // 
-            // labelB
+            // textBoxUIDUsername
             // 
-            this.labelB.AutoSize = true;
-            this.labelB.Location = new System.Drawing.Point(127, 74);
-            this.labelB.Name = "labelB";
-            this.labelB.Size = new System.Drawing.Size(14, 13);
-            this.labelB.TabIndex = 0;
-            this.labelB.Text = "B";
+            this.textBoxUIDUsername.Location = new System.Drawing.Point(214, 83);
+            this.textBoxUIDUsername.Name = "textBoxUIDUsername";
+            this.textBoxUIDUsername.Size = new System.Drawing.Size(100, 22);
+            this.textBoxUIDUsername.TabIndex = 2;
+            this.textBoxUIDUsername.TextChanged += new System.EventHandler(this.textBoxUIDUsername_TextChanged);
             // 
-            // textBoxB
+            // buttonShowBalance
             // 
-            this.textBoxB.Location = new System.Drawing.Point(148, 74);
-            this.textBoxB.Name = "textBoxB";
-            this.textBoxB.Size = new System.Drawing.Size(100, 20);
-            this.textBoxB.TabIndex = 1;
+            this.buttonShowBalance.Location = new System.Drawing.Point(128, 145);
+            this.buttonShowBalance.Name = "buttonShowBalance";
+            this.buttonShowBalance.Size = new System.Drawing.Size(118, 23);
+            this.buttonShowBalance.TabIndex = 3;
+            this.buttonShowBalance.Text = "Show balance";
+            this.buttonShowBalance.UseVisualStyleBackColor = true;
+            this.buttonShowBalance.Click += new System.EventHandler(this.buttonShowBalance_Click);
             // 
-            // buttonAdd
+            // textBoxAmount
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(110, 106);
-            this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
-            this.buttonAdd.TabIndex = 2;
-            this.buttonAdd.Text = "Add";
-            this.buttonAdd.UseVisualStyleBackColor = true;
-            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
+            this.textBoxAmount.Location = new System.Drawing.Point(170, 213);
+            this.textBoxAmount.Name = "textBoxAmount";
+            this.textBoxAmount.Size = new System.Drawing.Size(100, 22);
+            this.textBoxAmount.TabIndex = 4;
+            this.textBoxAmount.TextChanged += new System.EventHandler(this.textBoxAmount_TextChanged);
             // 
-            // buttonSub
+            // labelAmount
             // 
-            this.buttonSub.Location = new System.Drawing.Point(191, 106);
-            this.buttonSub.Name = "buttonSub";
-            this.buttonSub.Size = new System.Drawing.Size(75, 23);
-            this.buttonSub.TabIndex = 2;
-            this.buttonSub.Text = "Sub";
-            this.buttonSub.UseVisualStyleBackColor = true;
-            this.buttonSub.Click += new System.EventHandler(this.buttonSub_Click);
+            this.labelAmount.AutoSize = true;
+            this.labelAmount.Location = new System.Drawing.Point(94, 218);
+            this.labelAmount.Name = "labelAmount";
+            this.labelAmount.Size = new System.Drawing.Size(53, 16);
+            this.labelAmount.TabIndex = 5;
+            this.labelAmount.Text = "Amount";
             // 
-            // buttonMult
+            // labelResult
             // 
-            this.buttonMult.Location = new System.Drawing.Point(110, 135);
-            this.buttonMult.Name = "buttonMult";
-            this.buttonMult.Size = new System.Drawing.Size(75, 23);
-            this.buttonMult.TabIndex = 2;
-            this.buttonMult.Text = "Mult";
-            this.buttonMult.UseVisualStyleBackColor = true;
-            this.buttonMult.Click += new System.EventHandler(this.buttonMult_Click);
-            // 
-            // buttonDiv
-            // 
-            this.buttonDiv.Location = new System.Drawing.Point(191, 135);
-            this.buttonDiv.Name = "buttonDiv";
-            this.buttonDiv.Size = new System.Drawing.Size(75, 23);
-            this.buttonDiv.TabIndex = 2;
-            this.buttonDiv.Text = "Div";
-            this.buttonDiv.UseVisualStyleBackColor = true;
-            this.buttonDiv.Click += new System.EventHandler(this.buttonDiv_Click);
+            this.labelResult.AutoSize = true;
+            this.labelResult.Location = new System.Drawing.Point(158, 341);
+            this.labelResult.Name = "labelResult";
+            this.labelResult.Size = new System.Drawing.Size(46, 16);
+            this.labelResult.TabIndex = 6;
+            this.labelResult.Text = "Result";
+            this.labelResult.Click += new System.EventHandler(this.labelResult_Click);
             // 
             // textBoxResult
             // 
-            this.textBoxResult.Location = new System.Drawing.Point(148, 175);
+            this.textBoxResult.Location = new System.Drawing.Point(12, 369);
             this.textBoxResult.Name = "textBoxResult";
-            this.textBoxResult.Size = new System.Drawing.Size(100, 20);
-            this.textBoxResult.TabIndex = 1;
+            this.textBoxResult.Size = new System.Drawing.Size(349, 22);
+            this.textBoxResult.TabIndex = 7;
+            this.textBoxResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxResult.TextChanged += new System.EventHandler(this.textBoxResult_TextChanged);
+            // 
+            // buttonAmount
+            // 
+            this.buttonAmount.Location = new System.Drawing.Point(161, 280);
+            this.buttonAmount.Name = "buttonAmount";
+            this.buttonAmount.Size = new System.Drawing.Size(75, 23);
+            this.buttonAmount.TabIndex = 8;
+            this.buttonAmount.Text = "Add cash";
+            this.buttonAmount.UseVisualStyleBackColor = true;
+            this.buttonAmount.Click += new System.EventHandler(this.buttonAmount_Click);
+            // 
+            // labelQuotas
+            // 
+            this.labelQuotas.AutoSize = true;
+            this.labelQuotas.Location = new System.Drawing.Point(94, 419);
+            this.labelQuotas.Name = "labelQuotas";
+            this.labelQuotas.Size = new System.Drawing.Size(182, 16);
+            this.labelQuotas.TabIndex = 9;
+            this.labelQuotas.Text = "Quotas (number of A4 pages)";
+            // 
+            // textBoxQuotas
+            // 
+            this.textBoxQuotas.Location = new System.Drawing.Point(161, 438);
+            this.textBoxQuotas.Name = "textBoxQuotas";
+            this.textBoxQuotas.Size = new System.Drawing.Size(35, 22);
+            this.textBoxQuotas.TabIndex = 10;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(404, 275);
-            this.Controls.Add(this.buttonDiv);
-            this.Controls.Add(this.buttonMult);
-            this.Controls.Add(this.buttonSub);
-            this.Controls.Add(this.buttonAdd);
+            this.ClientSize = new System.Drawing.Size(373, 497);
+            this.Controls.Add(this.textBoxQuotas);
+            this.Controls.Add(this.labelQuotas);
+            this.Controls.Add(this.buttonAmount);
             this.Controls.Add(this.textBoxResult);
-            this.Controls.Add(this.textBoxB);
-            this.Controls.Add(this.labelB);
-            this.Controls.Add(this.textBoxA);
-            this.Controls.Add(this.labelA);
+            this.Controls.Add(this.labelResult);
+            this.Controls.Add(this.labelAmount);
+            this.Controls.Add(this.textBoxAmount);
+            this.Controls.Add(this.buttonShowBalance);
+            this.Controls.Add(this.textBoxUIDUsername);
+            this.Controls.Add(this.radioButtonUsername);
+            this.Controls.Add(this.radioButtonUID);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -141,15 +170,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Label labelA;
-        private System.Windows.Forms.TextBox textBoxA;
-        private System.Windows.Forms.Label labelB;
-        private System.Windows.Forms.TextBox textBoxB;
-        private System.Windows.Forms.Button buttonAdd;
-        private System.Windows.Forms.Button buttonSub;
-        private System.Windows.Forms.Button buttonMult;
-        private System.Windows.Forms.Button buttonDiv;
+        private System.Windows.Forms.RadioButton radioButtonUID;
+        private System.Windows.Forms.RadioButton radioButtonUsername;
+        private System.Windows.Forms.TextBox textBoxUIDUsername;
+        private System.Windows.Forms.Button buttonShowBalance;
+        private System.Windows.Forms.TextBox textBoxAmount;
+        private System.Windows.Forms.Label labelAmount;
+        private System.Windows.Forms.Label labelResult;
         private System.Windows.Forms.TextBox textBoxResult;
+        private System.Windows.Forms.Button buttonAmount;
+        private System.Windows.Forms.Label labelQuotas;
+        private System.Windows.Forms.TextBox textBoxQuotas;
     }
 }
 
