@@ -16,8 +16,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfPaymentService", "WcfPaymentService\WcfPaymentService.csproj", "{07587CFC-BF07-4EC0-850E-E054E1FD335C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{BD357102-5FFF-413B-85F9-8ECA9D64A3CF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,10 +42,6 @@ Global
 		{07587CFC-BF07-4EC0-850E-E054E1FD335C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07587CFC-BF07-4EC0-850E-E054E1FD335C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07587CFC-BF07-4EC0-850E-E054E1FD335C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD357102-5FFF-413B-85F9-8ECA9D64A3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD357102-5FFF-413B-85F9-8ECA9D64A3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD357102-5FFF-413B-85F9-8ECA9D64A3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD357102-5FFF-413B-85F9-8ECA9D64A3CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
