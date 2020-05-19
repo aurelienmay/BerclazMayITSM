@@ -20,7 +20,7 @@ namespace ConsoleTestWebService
             Console.WriteLine("Current balance for UID " + id + " : " + balance);
 
             var add = service.AddCashWithUID(id, 1000);
-            Console.WriteLine("Current balance for UID after add " + id + " : " + add);
+            Console.WriteLine("Current balance for UID " + id + " after add : " + add);
 
             Console.ReadKey();
 

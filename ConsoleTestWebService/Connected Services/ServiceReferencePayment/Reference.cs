@@ -27,11 +27,23 @@ namespace ConsoleTestWebService.ServiceReferencePayment {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IPaymentService/GetBalanceByUID", ReplyAction="http://tempuri.org/IPaymentService/GetBalanceByUIDResponse")]
         System.Threading.Tasks.Task<float> GetBalanceByUIDAsync(int uid);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IPaymentService/GetBalanceByUsername", ReplyAction="http://tempuri.org/IPaymentService/GetBalanceByUsernameResponse")]
+        float GetBalanceByUsername(string Username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IPaymentService/GetBalanceByUsername", ReplyAction="http://tempuri.org/IPaymentService/GetBalanceByUsernameResponse")]
+        System.Threading.Tasks.Task<float> GetBalanceByUsernameAsync(string Username);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IPaymentService/AddCashWithUID", ReplyAction="http://tempuri.org/IPaymentService/AddCashWithUIDResponse")]
         float AddCashWithUID(int UID, float cash);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IPaymentService/AddCashWithUID", ReplyAction="http://tempuri.org/IPaymentService/AddCashWithUIDResponse")]
         System.Threading.Tasks.Task<float> AddCashWithUIDAsync(int UID, float cash);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IPaymentService/AddCashWithUsername", ReplyAction="http://tempuri.org/IPaymentService/AddCashWithUsernameResponse")]
+        float AddCashWithUsername(string Username, float cash);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IPaymentService/AddCashWithUsername", ReplyAction="http://tempuri.org/IPaymentService/AddCashWithUsernameResponse")]
+        System.Threading.Tasks.Task<float> AddCashWithUsernameAsync(string Username, float cash);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -77,12 +89,28 @@ namespace ConsoleTestWebService.ServiceReferencePayment {
             return base.Channel.GetBalanceByUIDAsync(uid);
         }
         
+        public float GetBalanceByUsername(string Username) {
+            return base.Channel.GetBalanceByUsername(Username);
+        }
+        
+        public System.Threading.Tasks.Task<float> GetBalanceByUsernameAsync(string Username) {
+            return base.Channel.GetBalanceByUsernameAsync(Username);
+        }
+        
         public float AddCashWithUID(int UID, float cash) {
             return base.Channel.AddCashWithUID(UID, cash);
         }
         
         public System.Threading.Tasks.Task<float> AddCashWithUIDAsync(int UID, float cash) {
             return base.Channel.AddCashWithUIDAsync(UID, cash);
+        }
+        
+        public float AddCashWithUsername(string Username, float cash) {
+            return base.Channel.AddCashWithUsername(Username, cash);
+        }
+        
+        public System.Threading.Tasks.Task<float> AddCashWithUsernameAsync(string Username, float cash) {
+            return base.Channel.AddCashWithUsernameAsync(Username, cash);
         }
     }
 }

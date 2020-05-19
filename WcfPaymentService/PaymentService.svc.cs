@@ -30,11 +30,28 @@ namespace WcfPaymentService
             return user.Balance ;
         }
 
+        public float GetBalanceByUsername(string Username)
+        {
+            IPersonDB userDb = new PersonDB();
+            IPersonManager userManager = new PersonManager(userDb);
+            var user = userManager.GetBalanceByUsername(Username);
+            return user.Balance;
+        }
+
         public float AddCashWithUID(int UID, float cash)
         {
             IPersonDB userDb = new PersonDB();
             IPersonManager userManager = new PersonManager(userDb);
             float result = userManager.AddCashWithUID(UID, cash);
+            // Return the total cash in the balance
+            return result;
+        }
+
+        public float AddCashWithUsername(string Username, float cash)
+        {
+            IPersonDB userDb = new PersonDB();
+            IPersonManager userManager = new PersonManager(userDb);
+            float result = userManager.AddCashWithUsername(Username, cash);
             // Return the total cash in the balance
             return result;
         }

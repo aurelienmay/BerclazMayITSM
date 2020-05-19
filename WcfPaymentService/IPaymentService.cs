@@ -19,6 +19,12 @@ namespace WcfPaymentService
         float GetBalanceByUID(int uid);
 
         [OperationContract]
+        float GetBalanceByUsername(string Username);
+
+        [OperationContract]
         float AddCashWithUID(int UID, float cash);
+
+        [OperationContract]
+        float AddCashWithUsername(string Username, float cash);
     }
 }

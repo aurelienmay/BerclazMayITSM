@@ -27,9 +27,19 @@ namespace BLL
             return UserDb.GetBalanceByUID(uid);
         }
 
+        public Person GetBalanceByUsername(string Username)
+        {
+            return UserDb.GetBalanceByUsername(Username);
+        }
+
         public float AddCashWithUID(int UID, float cash)
         {
             return UserDb.AddCashWithUID(UID, cash);
+        }
+
+        public float AddCashWithUsername(string Username, float cash)
+        {
+            return UserDb.AddCashWithUsername(Username, cash);
         }
     }
 }
