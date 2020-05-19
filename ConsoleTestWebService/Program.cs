@@ -10,26 +10,20 @@ namespace ConsoleTestWebService
     {
         static void Main(string[] args)
         {
-            //ServiceReferenceCalculator.CalculatorClient client = new ServiceReferenceCalculator.CalculatorClient();
+            PaymentService.PaymentServiceClient service = new PaymentService.PaymentServiceClient();
 
-            //var id = 2;
-            //var firstname = client.GetPersonById(id);
-            //Console.WriteLine($"Person with id {id}: {firstname}");
+            var id = 2;
+            var username = service.GetUsernameByUID(id);
+            Console.WriteLine($"Person with id {id}: {username}");
 
-            //Console.ReadKey();
 
-            //ServiceReferenceCalculator.CalculatorClient client = new ServiceReferenceCalculator.CalculatorClient();
+            var balance = service.GetBalanceByUID(id);
+            Console.WriteLine("Current balance for UID " + id + " : " + balance);
 
-            //var id = 2;
-            //var firstname = client.GetPersonById(id);
-            //Console.WriteLine($"Person with id {id}: {firstname}");
+            var add = service.AddCashWithUID(id, 1000);
+            Console.WriteLine("Current balance for UID " + id + " : " + add);
 
-            //Console.ReadKey();
-
-            //ServiceReferencePS.PaymentServiceClient client = new ServiceReferencePS.PaymentServiceClient();
-            //var id = 2;
-            //var username = client.GetUsernameByUID(id);
-            //Console.WriteLine($"Person with id {id}: {username}");
+            Console.ReadKey();
 
         }
     }
