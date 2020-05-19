@@ -4,7 +4,8 @@
     "\\BLL",
     "\\ConsoleTestWebService",
     "\\DTO",
-    "\\WcfServiceCalculator"
+    "\\WcfServiceCalculator",
+    "\\WindowsFormsTestWebService"
   ],
   "SelectedNode": "\\Webservice.sln",
   "PreviewInSolutionExplorer": false
