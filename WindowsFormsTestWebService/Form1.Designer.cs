@@ -46,7 +46,7 @@
             this.radioButtonUID.AutoSize = true;
             this.radioButtonUID.Location = new System.Drawing.Point(74, 54);
             this.radioButtonUID.Name = "radioButtonUID";
-            this.radioButtonUID.Size = new System.Drawing.Size(52, 21);
+            this.radioButtonUID.Size = new System.Drawing.Size(49, 20);
             this.radioButtonUID.TabIndex = 0;
             this.radioButtonUID.TabStop = true;
             this.radioButtonUID.Text = "UID";
@@ -58,7 +58,7 @@
             this.radioButtonUsername.AutoSize = true;
             this.radioButtonUsername.Location = new System.Drawing.Point(74, 92);
             this.radioButtonUsername.Name = "radioButtonUsername";
-            this.radioButtonUsername.Size = new System.Drawing.Size(94, 21);
+            this.radioButtonUsername.Size = new System.Drawing.Size(89, 20);
             this.radioButtonUsername.TabIndex = 1;
             this.radioButtonUsername.TabStop = true;
             this.radioButtonUsername.Text = "Username";
@@ -96,7 +96,7 @@
             this.labelAmount.AutoSize = true;
             this.labelAmount.Location = new System.Drawing.Point(94, 218);
             this.labelAmount.Name = "labelAmount";
-            this.labelAmount.Size = new System.Drawing.Size(56, 17);
+            this.labelAmount.Size = new System.Drawing.Size(53, 16);
             this.labelAmount.TabIndex = 5;
             this.labelAmount.Text = "Amount";
             // 
@@ -105,7 +105,7 @@
             this.labelResult.AutoSize = true;
             this.labelResult.Location = new System.Drawing.Point(158, 341);
             this.labelResult.Name = "labelResult";
-            this.labelResult.Size = new System.Drawing.Size(48, 17);
+            this.labelResult.Size = new System.Drawing.Size(46, 16);
             this.labelResult.TabIndex = 6;
             this.labelResult.Text = "Result";
             this.labelResult.Click += new System.EventHandler(this.labelResult_Click);
@@ -134,16 +134,17 @@
             this.labelQuotas.AutoSize = true;
             this.labelQuotas.Location = new System.Drawing.Point(94, 419);
             this.labelQuotas.Name = "labelQuotas";
-            this.labelQuotas.Size = new System.Drawing.Size(196, 17);
+            this.labelQuotas.Size = new System.Drawing.Size(182, 16);
             this.labelQuotas.TabIndex = 9;
             this.labelQuotas.Text = "Quotas (number of A4 pages)";
             // 
             // textBoxQuotas
             // 
-            this.textBoxQuotas.Location = new System.Drawing.Point(147, 448);
+            this.textBoxQuotas.Location = new System.Drawing.Point(74, 438);
             this.textBoxQuotas.Name = "textBoxQuotas";
-            this.textBoxQuotas.Size = new System.Drawing.Size(75, 22);
+            this.textBoxQuotas.Size = new System.Drawing.Size(223, 22);
             this.textBoxQuotas.TabIndex = 10;
+            this.textBoxQuotas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
@@ -162,7 +163,7 @@
             this.Controls.Add(this.radioButtonUsername);
             this.Controls.Add(this.radioButtonUID);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "BerclazMay_ITSM";
             this.ResumeLayout(false);
             this.PerformLayout();
 

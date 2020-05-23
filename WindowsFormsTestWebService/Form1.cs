@@ -65,7 +65,7 @@ namespace WindowsFormsTestWebservice
             }
             catch(Exception error){
                 Console.WriteLine("IOException source: {0}", error.Source);
-                MessageBox.Show("Fail, nothing found try again or change values");
+                MessageBox.Show("Fail, nothing found try again or change values. Error message:" + error.Message);
             }
         }
 
@@ -104,7 +104,7 @@ namespace WindowsFormsTestWebservice
             catch (Exception error)
             {
                 Console.WriteLine("IOException source: {0}", error.Source);
-                MessageBox.Show("Fail, please enter an amount to add");
+                MessageBox.Show("Fail, please enter an amount to add. Error message:" + error.Message);
             }
 
         }
