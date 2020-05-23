@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3a324e27-64f0-4f49-86fb-24d52c6398dc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="78b00e3e-aa1e-4709-b944-8dc3c603d61e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,10 +22,10 @@
     <MetadataSource Address="http://localhost:56668/PaymentService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="PaymentService.xsd" MetadataType="Schema" ID="318b1912-f1c8-4dbf-9970-d25786e7ab72" SourceId="1" SourceUrl="http://localhost:56668/PaymentService.svc?xsd=xsd1" />
-    <MetadataFile FileName="PaymentService1.xsd" MetadataType="Schema" ID="ba96a600-8e46-4a98-9004-13f2ed2c87d6" SourceId="1" SourceUrl="http://localhost:56668/PaymentService.svc?xsd=xsd0" />
-    <MetadataFile FileName="PaymentService.wsdl" MetadataType="Wsdl" ID="969b3f6f-3dee-4e54-bdd1-3b783f81c77e" SourceId="1" SourceUrl="http://localhost:56668/PaymentService.svc?wsdl" />
-    <MetadataFile FileName="PaymentService.disco" MetadataType="Disco" ID="9699edc3-edb2-4f66-b61d-6ce723a3a640" SourceId="1" SourceUrl="http://localhost:56668/PaymentService.svc?disco" />
+    <MetadataFile FileName="PaymentService.xsd" MetadataType="Schema" ID="ae73ba97-c3b8-4174-8d56-6ef25caab258" SourceId="1" SourceUrl="http://localhost:56668/PaymentService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PaymentService1.xsd" MetadataType="Schema" ID="ff76451d-23e2-4304-af58-51dc568363d2" SourceId="1" SourceUrl="http://localhost:56668/PaymentService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PaymentService.wsdl" MetadataType="Wsdl" ID="ad05a736-85fb-43b7-b6f7-fa4325edf78e" SourceId="1" SourceUrl="http://localhost:56668/PaymentService.svc?wsdl" />
+    <MetadataFile FileName="PaymentService.disco" MetadataType="Disco" ID="9d3030c3-e64b-4b96-8c1b-d7c72266d495" SourceId="1" SourceUrl="http://localhost:56668/PaymentService.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

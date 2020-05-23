@@ -77,7 +77,7 @@ namespace WindowsFormsTestWebservice
         private void buttonAmount_Click(object sender, EventArgs e)
         {
 
-            var result="";
+            var result = "";
 
             try
             {
@@ -98,6 +98,7 @@ namespace WindowsFormsTestWebservice
                 }
 
                 textBoxResult.Text = result;
+                textBoxQuotas.Text = "For " + amount + " CHF: " + Convert.ToInt32(Math.Floor(amount / 0.08)).ToString() + " A4 pages";
 
             }
             catch (Exception error)
@@ -113,6 +114,11 @@ namespace WindowsFormsTestWebservice
         }
 
         private void labelResult_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxQuotas_TextChanged(object sender, EventArgs e)
         {
 
         }
