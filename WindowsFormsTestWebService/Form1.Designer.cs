@@ -67,7 +67,7 @@
             // 
             // textBoxUIDUsername
             // 
-            this.textBoxUIDUsername.Location = new System.Drawing.Point(214, 83);
+            this.textBoxUIDUsername.Location = new System.Drawing.Point(205, 74);
             this.textBoxUIDUsername.Name = "textBoxUIDUsername";
             this.textBoxUIDUsername.Size = new System.Drawing.Size(100, 22);
             this.textBoxUIDUsername.TabIndex = 2;
@@ -85,7 +85,7 @@
             // 
             // textBoxAmount
             // 
-            this.textBoxAmount.Location = new System.Drawing.Point(170, 213);
+            this.textBoxAmount.Location = new System.Drawing.Point(174, 215);
             this.textBoxAmount.Name = "textBoxAmount";
             this.textBoxAmount.Size = new System.Drawing.Size(100, 22);
             this.textBoxAmount.TabIndex = 4;
@@ -121,7 +121,7 @@
             // 
             // buttonAmount
             // 
-            this.buttonAmount.Location = new System.Drawing.Point(161, 280);
+            this.buttonAmount.Location = new System.Drawing.Point(147, 281);
             this.buttonAmount.Name = "buttonAmount";
             this.buttonAmount.Size = new System.Drawing.Size(75, 23);
             this.buttonAmount.TabIndex = 8;
@@ -140,12 +140,10 @@
             // 
             // textBoxQuotas
             // 
-            this.textBoxQuotas.Location = new System.Drawing.Point(74, 439);
+            this.textBoxQuotas.Location = new System.Drawing.Point(147, 448);
             this.textBoxQuotas.Name = "textBoxQuotas";
-            this.textBoxQuotas.Size = new System.Drawing.Size(240, 22);
+            this.textBoxQuotas.Size = new System.Drawing.Size(75, 22);
             this.textBoxQuotas.TabIndex = 10;
-            this.textBoxQuotas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxQuotas.TextChanged += new System.EventHandler(this.textBoxQuotas_TextChanged);
             // 
             // Form1
             // 
@@ -164,7 +162,7 @@
             this.Controls.Add(this.radioButtonUsername);
             this.Controls.Add(this.radioButtonUID);
             this.Name = "Form1";
-            this.Text = "BerclazMay_ITSM";
+            this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

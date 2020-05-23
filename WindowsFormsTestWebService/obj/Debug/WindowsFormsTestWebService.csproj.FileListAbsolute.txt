@@ -8,3 +8,13 @@ C:\Users\brice\Source\Repos\aurelienmay\BerclazMayITSM\WindowsFormsTestWebservic
 C:\Users\brice\Source\Repos\aurelienmay\BerclazMayITSM\WindowsFormsTestWebservice\bin\Debug\WindowsFormsTestWebservice.pdb
 C:\Users\brice\Source\Repos\aurelienmay\BerclazMayITSM\WindowsFormsTestWebservice\obj\Debug\WindowsFormsTestWebservice.exe
 C:\Users\brice\Source\Repos\aurelienmay\BerclazMayITSM\WindowsFormsTestWebservice\obj\Debug\WindowsFormsTestWebservice.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WindowsFormsTestWebservice\bin\Debug\WindowsFormsTestWebservice.exe.config
+C:\Users\aurel\source\repos\BerclazMayITSM\WindowsFormsTestWebservice\bin\Debug\WindowsFormsTestWebservice.exe
+C:\Users\aurel\source\repos\BerclazMayITSM\WindowsFormsTestWebservice\bin\Debug\WindowsFormsTestWebservice.pdb
+C:\Users\aurel\source\repos\BerclazMayITSM\WindowsFormsTestWebservice\obj\Debug\WindowsFormsTestWebservice.csprojAssemblyReference.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\WindowsFormsTestWebservice\obj\Debug\WindowsFormsTestWebservice.Form1.resources
+C:\Users\aurel\source\repos\BerclazMayITSM\WindowsFormsTestWebservice\obj\Debug\WindowsFormsTestWebservice.Properties.Resources.resources
+C:\Users\aurel\source\repos\BerclazMayITSM\WindowsFormsTestWebservice\obj\Debug\WindowsFormsTestWebservice.csproj.GenerateResource.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\WindowsFormsTestWebservice\obj\Debug\WindowsFormsTestWebservice.csproj.CoreCompileInputs.cache
+C:\Users\aurel\source\repos\BerclazMayITSM\WindowsFormsTestWebservice\obj\Debug\WindowsFormsTestWebservice.exe
+C:\Users\aurel\source\repos\BerclazMayITSM\WindowsFormsTestWebservice\obj\Debug\WindowsFormsTestWebservice.pdb
