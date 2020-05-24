@@ -1,5 +1,6 @@
-![Program](https://img.shields.io/badge/Program-Visual%20Studio-blueviolet)
+![Program](https://img.shields.io/badge/program-Visual%20Studio-blueviolet)
 ![Langage](https://img.shields.io/badge/langage-C%23-brightgreen)
+![Technology](https://img.shields.io/badge/technology-.NET%20Framework%204.7.2-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 # BerclazMayITSM
