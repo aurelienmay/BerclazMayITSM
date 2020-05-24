@@ -14,9 +14,16 @@ Just unzip the zip and open the solution file (.sln) in Visual Studio.
 
 You can directly launch it from Visual Studio and the Windows Form should appear and be functionnal with the WCF Service.
 
-## Technologies
+## Datas available for test
+### MSSQL - Table Person
 
-You can directly launch it from Visual Studio and the Windows Form should appear and be functionnal with the WCF Service.
+| UID  | Username | Balance |
+| ------------- | ------------- | ------------- |
+| 1  | aurelien  | 75 |
+| 2  | brice  | 100 |
+
+Data status as at 24.05.2020. The data is subject to any changes made by the user or by the web service.
+
 
 ## Known bug
 ### No listening endpoint on localhost
